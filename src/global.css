@@ -1,0 +1,29 @@
+html,
+body,
+#___gatsby,
+#___gatsby > * {
+  height: 100%;
+}
+
+body {
+  background-color: #f7f1e3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "lora";
+  color: #333;
+}
+
+a,
+p {
+  font-family: "merriweather";
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}

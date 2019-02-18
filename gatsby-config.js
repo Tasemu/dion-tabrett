@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    title: `Dion Tabrett`,
+    description: `Homeopathic Counciling`,
+    author: `@montaguemonro`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
       }
     },
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Merriweather`,
+          `lora` // you can also specify font weights and styles
+        ]
+      }
+    }
   ]
 };
