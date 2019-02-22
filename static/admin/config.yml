@@ -6,12 +6,23 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: home
-    label: Home Page
-    folder: markdown
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+  - name: pages
+    label: Pages
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "markdown/home.md"
+        fields:
+          - { name: path, label: Path }
+          - { name: date, label: Date, widget: date }
+          - { name: title, label: Title }
+          - { name: introduction, label: Introduction, widget: markdown }
+      - label: "About Page"
+        name: "about"
+        file: "markdown/about.md"
+        fields:
+          - { name: path, label: Path }
+          - { name: date, label: Date, widget: date }
+          - { name: title, label: Title }
+          - { name: introduction, label: Introduction, widget: markdown }
+          - { name: something, label: Something }
