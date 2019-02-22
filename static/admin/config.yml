@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: home
     label: Home Page
-    folder: home
+    folder: markdown
     create: true
     fields:
       - { name: path, label: Path }

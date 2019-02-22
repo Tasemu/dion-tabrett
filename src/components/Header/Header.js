@@ -16,7 +16,9 @@ const Header = ({ siteTitle, description }) => (
         <NavigationLink link="/about">About</NavigationLink>
         <NavigationLink link="/clinic">Clinic</NavigationLink>
         <NavigationLink link="/teaching">Teaching / Supervision</NavigationLink>
-        <NavigationLink link="/homeopathy">Homepathy / Research</NavigationLink>
+        <NavigationLink link="/homeopathy">
+          Homeopathy / Research
+        </NavigationLink>
         <NavigationLink link="/book">Burnett Book</NavigationLink>
         <NavigationLink link="/hahnemann">Hahnemann</NavigationLink>
       </ul>
